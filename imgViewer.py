@@ -8,8 +8,8 @@ Created on Sat Dec  9 12:01:07 2023
 import PIL
 import streamlit as st
 
-f_5m=PIL.Image.open("images//5.png")
-f_30m=PIL.Image.open("images//30.jpg")
+f_5m=PIL.Image.open("images\\5.png")
+f_30m=PIL.Image.open("images\\30.jpg")
 f_50m=PIL.Image.open("images//50.jpg")
 f_100m=PIL.Image.open("images//100.jpg")
 f_120m=PIL.Image.open("images//120.jpg")
