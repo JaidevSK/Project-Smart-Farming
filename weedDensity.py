@@ -6,9 +6,9 @@ import numpy as np
 import plotly.graph_objects as go
 
 
-w_highreso=PIL.Image.open("images\\weed_density3.png")
-w_medreso=PIL.Image.open("images\\weed_density1_1.png")
-w_lowreso=PIL.Image.open("images\\weed_density3_1.png")
+w_highreso=PIL.Image.open("images//weed_density3.png")
+w_medreso=PIL.Image.open("images//weed_density1_1.png")
+w_lowreso=PIL.Image.open("images//weed_density3_1.png")
 
 st.title("Project Smart Farming")
 st.header("Weed Density Analysis")
