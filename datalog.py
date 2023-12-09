@@ -21,7 +21,7 @@ submit = datalog.form_submit_button("Submit")
 if submit:
     st.success('Response Submitted', icon="✅")
 
-import random
+
 import pandas as pd
 
 df = pd.DataFrame(
