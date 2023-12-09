@@ -14,7 +14,7 @@ p=st.text_input("Password")
 if st.button("Submit"):
     if u=="username" and p=="password":
         st.write("Authentication Successful")
-        st.link_button("Go to Main Page", "AddLink")
+        st.link_button("Go to Main Page", "https://project-smart-farming-vefkkxyjh72zcdmf4pgzbs.streamlit.app/")
     else:
         st.write("Authentication Failed. Reload and Try Again...")
         
