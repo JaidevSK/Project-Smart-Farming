@@ -8,11 +8,11 @@ Created on Sat Dec  9 12:01:07 2023
 import PIL
 import streamlit as st
 
-#f_5m=PIL.Image.open("images//5.JPG")
-f_30m=PIL.Image.open("images//30.JPG")
-f_50m=PIL.Image.open("images//50.JPG")
-f_100m=PIL.Image.open("images//100.JPG")
-f_120m=PIL.Image.open("images//120.JPG")
+f_5m=PIL.Image.open("images//img5.png")
+f_30m=PIL.Image.open("images//img30.JPG")
+f_50m=PIL.Image.open("images//img50.JPG")
+f_100m=PIL.Image.open("images//img100.JPG")
+f_120m=PIL.Image.open("images//img120.JPG")
 
 st.title("Project Smart Farming")
 st.header("Field Map (Drone View)")
